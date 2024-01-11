@@ -112,8 +112,8 @@ const Register = () => {
                 });
                 setInpval({ ...inpval, fname: "", email: "", password: "", cpassword: "" });
 
-                history("/")
-            } else if (res.status === 409) {
+                history("/login")
+            } else if (res.status === 409) { 
                 toast.error("Email is already taken!", {
                     position: "top-center"
                 });

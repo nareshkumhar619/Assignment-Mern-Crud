@@ -166,8 +166,7 @@ const Home = () => {
                 >
                   {item?.gender}
                 </th>
-                {/* <td className="px-6 py-4"> {item?.age}</td> */}
-                {/* <td className="px-6 py-4"> {item?.gender}</td> */}
+               
                 <td className="px-6 py-4">
                   <div className="flex gap-x-4">
                     <NavLink
