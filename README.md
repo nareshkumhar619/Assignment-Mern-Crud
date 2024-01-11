@@ -39,11 +39,11 @@ To run this application locally, follow these steps:
 ## if Check Proper working download zip file and follow the step 
 
 ## for backend 
- #npm install
- #start : node app.js
+ # npm install
+ # start : node app.js
 
 ## for client 
- #npm install
-#start : npm start
+  # npm install
+# start : npm start
 
 #* deploy on vercel free domain so it working little slowly
