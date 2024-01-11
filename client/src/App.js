@@ -59,8 +59,8 @@ function App() {
             <Header />
 
             <Routes>
-              <Route path="/" element={<Login />} /> 
-              <Route path="/register" element={<Register />} />
+              <Route path="/login" element={<Login />} /> 
+              <Route path="/" element={<Register />} />
               <Route path="/dash" element={<Dashboard />} />
               <Route path="/singlePerson/:id" element={<ReadUser/>}/>
               <Route path="/updateData/:id" element={<UpdateUser/>}/>

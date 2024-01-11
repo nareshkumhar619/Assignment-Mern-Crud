@@ -75,7 +75,7 @@ const Login = () => {
                         </div>
 
                         <button className='btn' onClick={loginuser}>Login</button>
-                        <p>Don't have an Account? <NavLink to="/register">Sign Up</NavLink> </p>
+                        <p>Don't have an Account? <NavLink to="/">Sign Up</NavLink> </p>
                     </form>
                     <ToastContainer />
                 </div>

@@ -165,7 +165,7 @@ const Register = () => {
                         </div>
 
                         <button className='btn' onClick={addUserdata}>Sign Up</button>
-                        <p>Already have an account? <NavLink to="/">Log In</NavLink></p>
+                        <p>Already have an account? <NavLink to="/login">Log In</NavLink></p>
                     </form>
                     <ToastContainer />
                 </div>
